@@ -1,0 +1,16 @@
+# lib
+node_modules
+
+# secret
+configs/default.conf.ts
+data
+
+# plugins
+plugins/**/*
+
+# example plugin
+!plugins/com.youmukonpaku.example
+!plugins/com.youmukonpaku.example/index.ts
+
+!plugins/com.youmukonpaku.logs
+!plugins/com.youmukonpaku.logs/index.ts
